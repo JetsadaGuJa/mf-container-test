@@ -1,0 +1,8 @@
+version: "3"
+services:
+  container:
+    build:
+      context: ./container
+      dockerfile: Dockerfile
+    ports:
+      - "3001:80"
